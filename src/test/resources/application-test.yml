@@ -1,0 +1,4 @@
+app:
+  jwt:
+    key: city_bill_payment_2023_09_16_test
+    expiration-time: 1_000

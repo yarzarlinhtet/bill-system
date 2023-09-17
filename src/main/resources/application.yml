@@ -1,0 +1,19 @@
+server:
+  port : 8091
+  error:
+    include-message: always
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/billing_system_db
+    username: root
+    password: root
+    jpa:
+      show-sql: true
+
+app:
+  jwt:
+    key: city_bill_payment_2023_09_16
+    expiration-time: 18_000
